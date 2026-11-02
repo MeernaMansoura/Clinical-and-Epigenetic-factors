@@ -1,8 +1,14 @@
 # Clinical-and-Epigenetic-factors
 A machine learning project exploring clinical and epigenetic factors to predict dental caries susceptibility using Python.
+
 🦷 Clinical and Epigenetic Factors for Caries Susceptibility Prediction. This project is part of an Artificial Intelligence and Machine Learning coursework. It explores the relationship between clinical factors, epigenetic markers (DNA methylation), and dental caries susceptibility using machine learning techniques.
+
 📌 Project Overview: Dental caries is a multifactorial disease influenced by both environmental and biological factors. This project analyzes a dataset containing clinical parameters (such as salivary flow and sugar intake) alongside epigenetic markers (methylation levels of specific genes) to predict caries susceptibility.
+
 📂 Dataset FeaturesThe dataset (synthetic_dental_data.csv) consists of 850 samples with the following attributes:   Salivary_Flow: Measurements of salivary flow rate.   Buffering_Capacity: The buffering capacity of saliva.   Sugar_Intake: Daily or dietary sugar intake levels.   Meth_AMELX: Methylation level of the AMELX gene.   Meth_MUC5B: Methylation level of the MUC5B gene.   Meth_MMP9: Methylation level of the MMP9 gene.   Meth_TNF: Methylation level of the TNF gene.   Meth_IL6: Methylation level of the IL6 gene.   Caries_Susceptibility (Target Variable): Binary indicator of caries susceptibility (0 = Low/No Risk, 1 = High Risk).
+
 🛠️ Libraries Used: The project is implemented in Python using the following libraries: NumPy & Pandas – For data manipulation, cleaning, and statistical analysis.   Matplotlib & Seaborn – For data visualization and exploratory data analysis (EDA).
+
 🚀 Key Steps in the Notebook: Data Loading & Inspection: Imported the dataset, checked dimensions, and verified that there are no missing values (df.isna().sum()). Exploratory Data Analysis (EDA): Generated statistical summaries (describe()) to understand the distribution, mean, standard deviation, and quartiles of each feature.   Data Preprocessing: Prepared the dataset for machine learning models.
+
 👩‍💻 Author: Meerna Rasheed Mansoura (ID: 378554A)
